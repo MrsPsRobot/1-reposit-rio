@@ -1,0 +1,23 @@
+print ("Tuplas são como lista mas não pode adicionar e nem remover 1 objeto, apenas a tupla inteira")
+tuplas=("tiago", "Python","udemy")
+print(tuplas)
+print ("Quantidade de posições na tuplas")
+print (len (tuplas))
+print("\nO que tem em qual posição tuplas[]")
+print("tuplas[0]",tuplas[0])
+print ("tuplas[1]",tuplas[1])
+print("tuplas[2]",tuplas[2])
+print("tuplas[1:2]",tuplas[1:2])
+print ("tuplas[0:2]",tuplas[0:2])
+print ("\ntuplas*3")
+print (tuplas*3)
+print ("tuplas+tuplas",tuplas+tuplas)
+print ("Perguntado um conteudo na tupla"," "'udemy" in tuplas"')
+print ("udemy" in tuplas)
+print ("\n Transformando tuplas em lista","-->tuplas2=tuple(lista)")
+lista=[1,2,'tiago']
+print (lista)
+tuplas2=tuple(lista)
+print (tuplas)
+
+
